@@ -1,0 +1,17 @@
+def alps():
+    print "Hello!"
+    print "What do you want to learn about the alps?"
+    answer = raw_input("Press h,c,g,m and press Enter ").lower()
+    if answer == "h" or answer == "height" or answer == "their height" :
+        print "The highest peak is Mont blanc at 3000 meters!"
+    elif answer == "c" or answer == "countries" or answer == "Countries they go through":
+        print "France, Switzerland, Italy, Monaco, Liechtenstein, Austria, Germany, and Slovenia.!"
+    if answer == "g" or answer == "geology" or answer == "their geology":
+        print 'THJTHRTJKDF'
+    if answer == "m" or answer == "minerals" or answer == "the minerals that are in them":
+        print 'DFDSZFSD'
+
+    alps()
+
+
+alps()
